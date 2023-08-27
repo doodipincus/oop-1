@@ -31,10 +31,7 @@ class Square extends Rectangle {
     }
 }
 
-class Shape extends Rectangle {
-    constructor(x: number = 0, y: number = 0, color: string | undefined = undefined) {
-        super(x, y, color)
-    }
+class Shape {
     draw(): void {
         console.log('drawing a shape');
     }
