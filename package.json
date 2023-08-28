@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx index.ts",
-    "build": "tsc index.ts",
+    "dev": "tsx hospital.ts",
+    "build": "tsc hospital.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
